@@ -1,10 +1,14 @@
-import React from "react";
+import React from 'react';
 
-function Skills() {
-  return (
-    <div>
-      <h1>Skills</h1>
-      <p>This is Skills Page</p>
-    </div>
-  );
+class Skills extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1 className="text-2xl font-bold">Skills</h1>
+        <p>Here are my skills.</p>
+      </div>
+    );
+  }
 }
+
+export default Skills;

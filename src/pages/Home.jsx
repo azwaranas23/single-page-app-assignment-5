@@ -1,10 +1,15 @@
-import React from "react";
+// src/pages/Home.jsx
+import React from 'react';
 
-function Home() {
-  return (
-    <div>
-      <h1>Home</h1>
-      <p>This is Homepage</p>
-    </div>
-  );
+class Home extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1 className="text-2xl font-bold">Home</h1>
+        <p>Welcome to my portfolio! This is the home page.</p>
+      </div>
+    );
+  }
 }
+
+export default Home;
